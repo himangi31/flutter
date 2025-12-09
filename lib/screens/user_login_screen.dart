@@ -77,6 +77,15 @@ class _UserLoginScreenState extends State<UserLoginScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  // Logo
+                  Image.asset(
+                    'assets/logo.png',
+                    width: 120,
+                    height: 150,
+                    fit: BoxFit.contain,
+                  ),
+                  const SizedBox(height: 3),
+
                   const Text(
                     'Welcome \nBPE',
                     textAlign: TextAlign.center,
