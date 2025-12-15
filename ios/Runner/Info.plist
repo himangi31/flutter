@@ -45,5 +45,15 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSCameraUsageDescription</key>
+<string>Camera access is required to scan visiting cards</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Photo library access is required</string>
+
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Photo library access is required to save photos</string>
+
 </dict>
 </plist>
